@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/chai-jquery": "^1.1.38",
+    "@types/cypress": "^1.1.3",
     "@types/enzyme": "^3.9.1",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "axios": "^0.18.0",
+    "cypress-jest-adapter": "^0.1.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "mobx": "^5.9.4",
@@ -25,6 +29,9 @@
     "@types/node": "^11.13.6",
     "@types/react": "^16.8.14",
     "@types/react-dom": "^16.8.4",
+    "cypress": "^3.2.0",
+    "dirty-chai": "^2.0.1",
+    "tslint-no-unused-expression-chai": "^0.1.4",
     "typescript": "^3.4.4"
   }
 }

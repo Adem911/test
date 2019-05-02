@@ -1,7 +1,7 @@
-import contacts from './contacts';
+import images from './images';
 
 const stores = {
-    contacts,
+    images,
 };
 
 export default stores;

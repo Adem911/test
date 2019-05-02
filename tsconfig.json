@@ -1,6 +1,8 @@
+
 {
   "compilerOptions": {
-      "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "strict": true,
     "baseUrl": ".",
     "outDir": "build/dist",
     "module": "esnext",
@@ -20,6 +22,7 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true
   },
+  "compileOnSave": false,
   "exclude": [
     "node_modules",
     "build",
@@ -27,6 +30,8 @@
     "acceptance-tests",
     "webpack",
     "jest",
-    "src/setupTests.ts"
+    "src"
   ]
+ 
+  
 }

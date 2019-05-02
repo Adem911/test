@@ -6,7 +6,7 @@ import stores from './stores';
 import './index.css';
 
 ReactDOM.render(
-  <Provider contacts={stores.contacts}>
+  <Provider images={stores.images} >
     <App />
   </Provider>,
   document.getElementById('root') as HTMLElement

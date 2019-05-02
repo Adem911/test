@@ -1,0 +1,18 @@
+.image-card {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.thumb-up {
+    cursor: pointer;
+}
+.thumb-up:hover {
+    color: blue;
+}
+
+.thumb-down {
+    cursor: pointer;
+}
+.thumb-down:hover {
+    color: red;
+}
